@@ -46,9 +46,16 @@
 		- Siberia is now a country separate from Russia
 - How does the playspace/board constrain or enable player agency or choice?
 	- the player is given free reign of how to complete the objective with the tools at their disposal
--->
 - How does the game provide feedback to the player?
-<!--
+	- sometimes a shot will trigger the bullet-cam
+		- time slows
+		- camera follows the bullet
+			- from being fired from the gun
+			- to it hitting the target
+	- the game will award bonus rewards for certain kills
+		- headshots
+		- multikills
+		- mine kills
 - What kind of emotions does the game provoke on the player? How does the player stay motivated?
 	- the missions are short, with only ~5 missions per map, ensuring the player doesn't get tired of the same thing over and over
 	- `5 Maps` x `5 Missions` = `25 Total Missions`
