@@ -54,10 +54,9 @@
 	- `5 Maps` x `5 Missions` = `25 Total Missions`
 - What aspects of the design are mechanic-driven? Are there story-driven elements?
 	- the game is largely mechanic-focused, with the story sometimes taking a backseat
--->
 - Is the game replayable? Are there several paths to win or just one?
+	- there is one ending to the game / each mission, but the route taken in each mission is completely up to the player
 - What is the game’s target audience?
-<!--
 - Did you have fun playing it? Why or why not? What was your favorite part and your least favorite? Why?
 	- i loved playing it
 	- getting a perfect shot from the opposite side of the map is a great feeling
