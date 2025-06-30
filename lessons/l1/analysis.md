@@ -6,8 +6,8 @@
 </style>
 
 # Sniper Ghost Warrior Contracts
-- [Steam](https://store.steampowered.com/app/973580/Sniper_Ghost_Warrior_Contracts/)
-- [Wikipedia](https://en.wikipedia.org/wiki/Sniper_Ghost_Warrior_Contracts)
+[`Steam`](https://store.steampowered.com/app/973580/Sniper_Ghost_Warrior_Contracts/)\
+[`Wikipedia`](https://en.wikipedia.org/wiki/Sniper_Ghost_Warrior_Contracts)
 ***
 - How many players can the game accommodate?
 	- 1
