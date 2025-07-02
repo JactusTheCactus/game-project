@@ -1,18 +1,31 @@
-<doctype html
-	><html>
-		<head>
-			<style>
-				body {
-					font: 20px Verdana;
-				}
-				img {
-					width: 100%;
-				}
-			</style>
-			<title>Game Design Document</title>
-		</head>
-		<body>
-			<header>
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				font: 20px Verdana;
+			}
+			img {
+				width: 75%;
+			}
+			details :not(summary) {
+				margin-left: 2em;
+			}
+			summary {
+				font-size: 1.25em;
+			}
+		</style>
+		<title>Game Design Document</title>
+	</head>
+	<body>
+		<h1>${name}</h1>
+		<main>
+			<details>
+				<summary>Team</summary>
+				<p>Devin Basaraba</p>
+			</details>
+			<details>
+				<summary>DISCLAIMER</summary>
 				This is a template, and it is in no way a restrictive document. Feel
 				free to change it and make it your own. We know all ideas are different
 				and some elements might not apply to yours, while others are missing.
@@ -21,228 +34,116 @@
 				the whole team. Change it as you wish. Do not limit yourself, let the
 				design document change as your game design progresses. Make it your
 				document. Add images, videos, gifs, jokes. Anything goes!
-			</header>
-			<h1><code>${name}</code></h1>
-			<ul>
-				<section>
-					<p>by:</p>
-					<ol>
-						<p>Devin Basaraba</p>
-					</ol>
-				</section>
-				<main>
-					<section>
-						<h2>Overview</h2>
-						<ul>
-							<section>
-								<h3>Tagline</h3>
-								<ul>
-									<p><code>${Describe your game concept and story}</code></p>
-								</ul>
-							</section>
-							<section>
-								<h3>Genre and Theme</h3>
-								<ul>
-									<p>
-										<code
-											>${Elaborate on the game's genre, the story and gameplay
-											themes}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<section>
-								<h3>Competitive Landscape Research</h3>
-								<ul>
-									<p>
-										<code
-											>${List similar games. Add visuals and describe how they
-											are different}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<section>
-								<h3>Target Audience and Platform</h3>
-								<ul>
-									<p>
-										<code
-											>${Define the target audience. List other media or games
-											the target audience enjoys}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<p>
-								<code
-									>${Define the platform the game is for. What is the input
-									modality?}</code
-								>
-							</p>
-						</ul>
-					</section>
-					<section>
-						<h2>Gameplay</h2>
-						<ul>
-							<p>
-								<code
-									>${Include visual references to other games, films, and art.
-									Sometimes images and gifs communicate more than words}</code
-								>
-							</p>
-							<section>
-								<h3>Narrative</h3>
-								<ul>
-									<p><code>${Describe the core story of the game}</code></p>
-									<p>
-										<code>${Describe the player's struggle and conflict}</code>
-									</p>
-									<p>
-										<code
-											>${List who the player encounters during the game?
-											Describe key allies NPCs}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Are there any key story turning points? Twists and
-											turns?}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<section>
-								<h3>Mechanics</h3>
-								<ul>
-									<p>
-										<code
-											>${Describe the core elements of gameplay. Describe the
-											core loop of the game}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Explain what the player/character does according to the
-											situation}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Describe the obstacle the player/character needs to
-											overcome and define their goal}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Describe how the game prevents the player from
-											achieving the goal}</code
-										>
-									</p>
-									<p>
-										<code
-											>${List the key resources available to the player and
-											describe how they will be spent and replenished}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Describe whether resources have risk and reward
-											scenarios}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<section>
-								<h3>Interface</h3>
-								<ul>
-									<p>
-										<code
-											>${Illustrate what the player will see with the
-											camera}</code
-										>
-									</p>
-									<img src="menus.png" alt="Main, Shop & Settings Menus" />
-									<p>
-										<code>${Explain who and what the player controls}</code>
-									</p>
-									<p><code>${Describe the player's visceral feeling}</code></p>
-									<p>
-										<code
-											>${List the vital information the player needs to be aware
-											of moment-to-moment}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<section>
-								<h3>Audio</h3>
-								<ul>
-									<p>
-										<code
-											>${Describe the sound, music, and sound effects the player
-											hear}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Explain how the sound creates an atmosphere in the
-											game}</code
-										>
-									</p>
-								</ul>
-							</section>
-							<section>
-								<h3>Production</h3>
-								<ul>
-									<p>
-										<code
-											>${Explain the vital art assets to the in-game
-											experience}</code
-										>
-									</p>
-									<p><code>${List the key visual aesthetics}</code></p>
-									<p>
-										<code
-											>${Describe the type of light the game will have}</code
-										>
-									</p>
-									<p>
-										<code
-											>${Explain the role of light and shadows in the game and
-											how it creates an atmosphere}</code
-										>
-									</p>
-									<p><code>${Define if light needs to be dynamic}</code></p>
-									<p><code>${Explain the key reliability factors}</code></p>
-								</ul>
-							</section>
-							<p>
-								<code
-									>${Describe the color palette that will be used and what it
-									will communicate}</code
-								>
-							</p>
-						</ul>
-					</section>
-					<section>
-						<h2>Project Scope</h2>
-						<ul>
-							<p>
-								The project will be done in <code>${time commitment}</code>, and
-								we will use
-								<code
-									>${necessary resources: budget, assets, time, technical,
-									etc.}</code
-								>. Within these constraints, we will deliver
-								<code
-									>${briefly describe what you want to target in this game jam:
-									a prototype, a level, a minimum viable product, etc}</code
-								>.
-							</p>
-						</ul>
-					</section>
-				</main>
-			</ul>
-		</body>
-	</html>
-</doctype>
+			</details>
+			<details>
+				<summary>Overview</summary>
+				<details>
+					<summary>Tagline</summary>
+					<p>${Describe your game concept and story}</p>
+				</details>
+				<details>
+					<summary>Genre and Theme</summary>
+					<p>${Elaborate on the game's genre, the story and gameplay themes}</p>
+				</details>
+				<details>
+					<summary>Competitive Landscape Research</summary>
+					<p>
+						${List similar games. Add visuals and describe how they are
+						different}
+					</p>
+				</details>
+				<details>
+					<summary>Target Audience and Platform</summary>
+					<p>
+						${Define the target audience. List other media or games the target
+						audience enjoys}
+					</p>
+				</details>
+				<p>
+					${Define the platform the game is for. What is the input modality?}
+				</p>
+			</details>
+			<details>
+				<summary>Gameplay</summary>
+				<p>
+					${Include visual references to other games, films, and art. Sometimes
+					images and gifs communicate more than words}
+				</p>
+				<details>
+					<summary>Narrative</summary>
+					<p>${Describe the core story of the game}</p>
+					<p>${Describe the player's struggle and conflict}</p>
+					<p>
+						${List who the player encounters during the game? Describe key
+						allies NPCs}
+					</p>
+					<p>${Are there any key story turning points? Twists and turns?}</p>
+				</details>
+				<details>
+					<summary>Mechanics</summary>
+					<p>
+						${Describe the core elements of gameplay. Describe the core loop of
+						the game}
+					</p>
+					<p>
+						${Explain what the player/character does according to the situation}
+					</p>
+					<p>
+						${Describe the obstacle the player/character needs to overcome and
+						define their goal}
+					</p>
+					<p>
+						${Describe how the game prevents the player from achieving the goal}
+					</p>
+					<p>
+						${List the key resources available to the player and describe how
+						they will be spent and replenished}
+					</p>
+					<p>${Describe whether resources have risk and reward scenarios}</p>
+				</details>
+				<details>
+					<summary>Interface</summary>
+					<p>${Illustrate what the player will see with the camera}</p>
+					<img src="menus.png" alt="Main, Shop & Settings Menus" />
+					<p>${Explain who and what the player controls}</p>
+					<p>${Describe the player's visceral feeling}</p>
+					<p>
+						${List the vital information the player needs to be aware of
+						moment-to-moment}
+					</p>
+				</details>
+				<details>
+					<summary>Audio</summary>
+					<p>${Describe the sound, music, and sound effects the player hear}</p>
+					<p>${Explain how the sound creates an atmosphere in the game}</p>
+				</details>
+				<details>
+					<summary>Production</summary>
+					<p>${Explain the vital art assets to the in-game experience}</p>
+					<p>${List the key visual aesthetics}</p>
+					<p>${Describe the type of light the game will have}</p>
+					<p>
+						${Explain the role of light and shadows in the game and how it
+						creates an atmosphere}
+					</p>
+					<p>${Define if light needs to be dynamic}</p>
+					<p>${Explain the key reliability factors}</p>
+				</details>
+				<p>
+					${Describe the color palette that will be used and what it will
+					communicate}
+				</p>
+			</details>
+			<details>
+				<summary>Project Scope</summary>
+				<p>
+					The project will be done in ${time commitment}, and we will use
+					${necessary resources: budget, assets, time, technical, etc.}. Within
+					these constraints, we will deliver ${briefly describe what you want to
+					target in this game jam: a prototype, a level, a minimum viable
+					product, etc}.
+				</p>
+			</details>
+		</main>
+	</body>
+</html>
