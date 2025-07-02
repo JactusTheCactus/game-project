@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/Level.umap",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/Levels/Level_01.umap",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow.uasset",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset",
+				"D:/Downoads/ProgrammingProjects/game-project/unity-project/MyProject/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow.uasset"
+			]
+		}
+	]
+}
