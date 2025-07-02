@@ -1,24 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<style>
 			body {
 				font: 20px Verdana;
+				padding: 1em;
 			}
 			img {
-				width: 75%;
+				width: 100%;
+				max-width: 75%;
 			}
-			details :not(summary) {
+			details {
+				margin-bottom: 1em;
+				padding: 0.5em;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				background: #f9f9f9;
+			}
+			details > :not(summary) {
 				margin-left: 2em;
 			}
 			summary {
 				font-size: 1.25em;
+				cursor: pointer;
+			}
+			p {
+				line-height: 1.5;
+			}
+			mark {
+				font-weight: bold;
+				font-style: italic;
+				font: 1em monospace;
+			}
+			mark::before {
+				content: "${";
+			}
+			mark::after {
+				content: "}";
+			}
+			@media print {
+				details {
+					display: block;
+				}
+				details[open] summary::after {
+					content: " ▼";
+				}
+				summary {
+					font-weight: bold;
+				}
 			}
 		</style>
 		<title>Game Design Document</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
 	<body>
-		<h1>${name}</h1>
+		<h1><mark>name</mark></h1>
 		<main>
 			<details>
 				<summary>Team</summary>
@@ -39,109 +75,165 @@
 				<summary>Overview</summary>
 				<details>
 					<summary>Tagline</summary>
-					<p>${Describe your game concept and story}</p>
+					<p><mark>Describe your game concept and story</mark></p>
 				</details>
 				<details>
 					<summary>Genre and Theme</summary>
-					<p>${Elaborate on the game's genre, the story and gameplay themes}</p>
+					<p>
+						<mark
+							>Elaborate on the game's genre, the story and gameplay
+							themes</mark
+						>
+					</p>
 				</details>
 				<details>
 					<summary>Competitive Landscape Research</summary>
 					<p>
-						${List similar games. Add visuals and describe how they are
-						different}
+						<mark
+							>List similar games. Add visuals and describe how they are
+							different</mark
+						>
 					</p>
 				</details>
 				<details>
 					<summary>Target Audience and Platform</summary>
 					<p>
-						${Define the target audience. List other media or games the target
-						audience enjoys}
+						<mark
+							>Define the target audience. List other media or games the target
+							audience enjoys</mark
+						>
 					</p>
 				</details>
 				<p>
-					${Define the platform the game is for. What is the input modality?}
+					<mark
+						>Define the platform the game is for. What is the input
+						modality?</mark
+					>
 				</p>
 			</details>
 			<details>
 				<summary>Gameplay</summary>
 				<p>
-					${Include visual references to other games, films, and art. Sometimes
-					images and gifs communicate more than words}
+					<mark
+						>Include visual references to other games, films, and art. Sometimes
+						images and gifs communicate more than words</mark
+					>
 				</p>
 				<details>
 					<summary>Narrative</summary>
-					<p>${Describe the core story of the game}</p>
-					<p>${Describe the player's struggle and conflict}</p>
+					<p><mark>Describe the core story of the game</mark></p>
+					<p><mark>Describe the player's struggle and conflict</mark></p>
 					<p>
-						${List who the player encounters during the game? Describe key
-						allies NPCs}
+						<mark
+							>List who the player encounters during the game? Describe key
+							allies NPCs</mark
+						>
 					</p>
-					<p>${Are there any key story turning points? Twists and turns?}</p>
+					<p>
+						<mark
+							>Are there any key story turning points? Twists and turns?</mark
+						>
+					</p>
 				</details>
 				<details>
 					<summary>Mechanics</summary>
 					<p>
-						${Describe the core elements of gameplay. Describe the core loop of
-						the game}
+						<mark
+							>Describe the core elements of gameplay. Describe the core loop of
+							the game</mark
+						>
 					</p>
 					<p>
-						${Explain what the player/character does according to the situation}
+						<mark
+							>Explain what the player/character does according to the
+							situation</mark
+						>
 					</p>
 					<p>
-						${Describe the obstacle the player/character needs to overcome and
-						define their goal}
+						<mark
+							>Describe the obstacle the player/character needs to overcome and
+							define their goal</mark
+						>
 					</p>
 					<p>
-						${Describe how the game prevents the player from achieving the goal}
+						<mark
+							>Describe how the game prevents the player from achieving the
+							goal</mark
+						>
 					</p>
 					<p>
-						${List the key resources available to the player and describe how
-						they will be spent and replenished}
+						<mark
+							>List the key resources available to the player and describe how
+							they will be spent and replenished</mark
+						>
 					</p>
-					<p>${Describe whether resources have risk and reward scenarios}</p>
+					<p>
+						<mark
+							>Describe whether resources have risk and reward scenarios</mark
+						>
+					</p>
 				</details>
 				<details>
 					<summary>Interface</summary>
-					<p>${Illustrate what the player will see with the camera}</p>
-					<img src="menus.png" alt="Main, Shop & Settings Menus" />
-					<p>${Explain who and what the player controls}</p>
-					<p>${Describe the player's visceral feeling}</p>
 					<p>
-						${List the vital information the player needs to be aware of
-						moment-to-moment}
+						<mark>Illustrate what the player will see with the camera</mark>
+					</p>
+					<img src="menus.png" alt="Main, Shop & Settings Menus" />
+					<p><mark>Explain who and what the player controls</mark></p>
+					<p><mark>Describe the player's visceral feeling</mark></p>
+					<p>
+						<mark
+							>List the vital information the player needs to be aware of
+							moment-to-moment</mark
+						>
 					</p>
 				</details>
 				<details>
 					<summary>Audio</summary>
-					<p>${Describe the sound, music, and sound effects the player hear}</p>
-					<p>${Explain how the sound creates an atmosphere in the game}</p>
+					<p>
+						<mark
+							>Describe the sound, music, and sound effects the player
+							hear</mark
+						>
+					</p>
+					<p>
+						<mark>Explain how the sound creates an atmosphere in the game</mark>
+					</p>
 				</details>
 				<details>
 					<summary>Production</summary>
-					<p>${Explain the vital art assets to the in-game experience}</p>
-					<p>${List the key visual aesthetics}</p>
-					<p>${Describe the type of light the game will have}</p>
 					<p>
-						${Explain the role of light and shadows in the game and how it
-						creates an atmosphere}
+						<mark>Explain the vital art assets to the in-game experience</mark>
 					</p>
-					<p>${Define if light needs to be dynamic}</p>
-					<p>${Explain the key reliability factors}</p>
+					<p><mark>List the key visual aesthetics</mark></p>
+					<p><mark>Describe the type of light the game will have</mark></p>
+					<p>
+						<mark
+							>Explain the role of light and shadows in the game and how it
+							creates an atmosphere</mark
+						>
+					</p>
+					<p><mark>Define if light needs to be dynamic</mark></p>
+					<p><mark>Explain the key reliability factors</mark></p>
 				</details>
 				<p>
-					${Describe the color palette that will be used and what it will
-					communicate}
+					<mark
+						>Describe the color palette that will be used and what it will
+						communicate</mark
+					>
 				</p>
 			</details>
 			<details>
 				<summary>Project Scope</summary>
 				<p>
-					The project will be done in ${time commitment}, and we will use
-					${necessary resources: budget, assets, time, technical, etc.}. Within
-					these constraints, we will deliver ${briefly describe what you want to
-					target in this game jam: a prototype, a level, a minimum viable
-					product, etc}.
+					The project will be done in <mark>time commitment</mark>, and we will
+					use
+					<mark>necessary resources: budget, assets, time, technical, etc.</mark
+					>. Within these constraints, we will deliver
+					<mark
+						>briefly describe what you want to target in this game jam: a
+						prototype, a level, a minimum viable product, etc</mark
+					>.
 				</p>
 			</details>
 		</main>
