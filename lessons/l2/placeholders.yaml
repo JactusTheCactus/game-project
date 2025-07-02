@@ -1,0 +1,41 @@
+name:
+overview:
+    tagline:
+    genre&Theme:
+    competitiveLandscapeResearch:
+    targetAudience&Platform:
+    platform:
+gameplay:
+    references:
+    narrative:
+        core:
+        conflict:
+        npcs:
+        keyPoints:
+    mechanics:
+        core:
+        Explain what the player/character does according to the situation:
+        goal:
+        obstacles:
+        resources:
+        risk&Reward:
+    interface:
+        camera:
+        controls:
+        feeling:
+        information:
+    audio:
+        sound&Music:
+        atmosphere:
+    production:
+        vitalArt:
+        keyVisual:
+        light:
+        light&Shadows:
+        dynamicLight:
+        reliability:
+    colour:
+projectScope:
+    time:
+    resources:
+    goal: 
