@@ -5078,3 +5078,7 @@ Sampler Limit: 32
 [2025.07.03-22.05.50:148][108]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
 [2025.07.03-22.05.50:148][108]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
 [2025.07.03-22.05.50:171][108]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../ProgrammingProjects/game-project/unity-project/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2025.07.03-22.07.44:088][618]LogDerivedDataCache: C:/Users/gosli/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.07.03-22.08.08:063][689]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14536.446289
+[2025.07.03-22.08.09:071][692]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.03-22.08.09:071][692]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14537.122070, Update Interval: 302.072815
